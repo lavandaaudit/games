@@ -882,10 +882,24 @@ const ROOM_PREFIX = 'fifa97gold-';
 
 /* ---------- GAME LIBRARY ---------- */
 const GAMES = [
-  { id: 'fifa97',   name: 'FIFA 97 Gold',      rom: './fifa97.bin',           emoji: '⚽', genre: 'Sports',      desc: 'Football' },
-  { id: 'sor',      name: 'Streets of Rage',    rom: './streets_of_rage.bin',  emoji: '👊', genre: 'Beat \'em up', desc: '1991 · Sega' },
-  { id: 'goldenaxe',name: 'Golden Axe',         rom: './golden_axe.bin',       emoji: '🪓', genre: 'Beat \'em up', desc: '1989 · Sega' },
-  { id: 'mk2',      name: 'Mortal Kombat 2',    rom: './mortal_kombat_2.bin',  emoji: '🥋', genre: 'Fighting',    desc: '1993 · Midway' },
+  // Sports
+  { id: 'fifa97',      name: 'FIFA 97 Gold',         rom: './fifa97.bin',           emoji: '⚽', genre: 'Sports',      desc: '1996 · EA Sports' },
+  { id: 'fifa98',      name: 'FIFA 98',              rom: './fifa98.bin',           emoji: '⚽', genre: 'Sports',      desc: '1997 · EA Sports' },
+  { id: 'nbajam',      name: 'NBA Jam',              rom: './nba_jam.bin',          emoji: '🏀', genre: 'Sports',      desc: '1993 · Acclaim' },
+  { id: 'bullsblz',    name: 'Bulls vs Blazers',     rom: './bulls_vs_blazers.bin', emoji: '🏀', genre: 'Sports',      desc: '1992 · EA Sports' },
+  // Shooters
+  { id: 'tf4',         name: 'Thunder Force IV',     rom: './thunder_force_iv.bin', emoji: '🚀', genre: 'Shooter',     desc: '1992 · Technosoft' },
+  { id: 'alien3',      name: 'Alien 3',              rom: './alien3.bin',           emoji: '👽', genre: 'Shooter',     desc: '1992 · Probe' },
+  { id: 'aliensoldier',name: 'Alien Soldier',        rom: './alien_soldier.bin',    emoji: '👽', genre: 'Shooter',     desc: '1995 · Treasure' },
+  { id: 'gunstar',     name: 'Gunstar Heroes',       rom: './gunstar.bin',          emoji: '🔫', genre: 'Action',      desc: '1993 · Treasure' },
+  // Strategy
+  { id: 'dune2',       name: 'Dune II',              rom: './dune_2.bin',           emoji: '🏰', genre: 'Strategy',    desc: '1993 · Westwood' },
+  { id: 'genchaos',    name: 'General Chaos',        rom: './general_chaos.bin',    emoji: '⚔️', genre: 'Strategy',    desc: '1993 · EA' },
+  // Beat 'em up / Fighting
+  { id: 'sor',         name: 'Streets of Rage',      rom: './streets_of_rage.bin',  emoji: '👊', genre: 'Beat \'em up',desc: '1991 · Sega' },
+  { id: 'goldenaxe',   name: 'Golden Axe',           rom: './golden_axe.bin',       emoji: '🪓', genre: 'Beat \'em up',desc: '1989 · Sega' },
+  { id: 'mk2',         name: 'Mortal Kombat 2',      rom: './mortal_kombat_2.bin',  emoji: '🥋', genre: 'Fighting',    desc: '1993 · Midway' },
+  { id: 'bomberman',   name: 'Mega Bomberman',       rom: './mega_bomberman.bin',   emoji: '💣', genre: 'Action',      desc: '1994 · Hudson' },
 ];
 
 // Determine which game to load from URL parameter ?game=<id>
